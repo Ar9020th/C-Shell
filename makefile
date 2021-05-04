@@ -1,0 +1,2 @@
+shell: cd.c execvp.c ls.c pinfo.c echo.c exit.c history.c main.c nightswatch.c pwd.c pipe.c setenviron.c unsetenviron.c jobs.c kjob.c fg.c bg.c overkill.c
+	gcc -ggdb -o shell cd.c execvp.c ls.c pinfo.c echo.c exit.c history.c main.c nightswatch.c pwd.c pipe.c setenviron.c unsetenviron.c jobs.c kjob.c fg.c bg.c overkill.c
