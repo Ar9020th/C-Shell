@@ -17,10 +17,9 @@ Files and their uses:<br>
 
 The Shell program runs on an infinite loop and takes input from stdin using fgets(), which is further tokenized into semicolon-separated commands, which are run in order. Each command is tokenized separating the commands,flags(if any) and the arguments(if any). Switch-case is used in order to select from the executable commands like rm,mkdir etc and other self-defined commands pwd, ls, cd, echo, pinfo,nightswatch and history.
 
-Assumptions made:
+Assumptions made:<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1. /proc filesystem is accessible as is to any standard linux user.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2. no of semicolon separated commands is maximum 50, with 2000 char as max length for each.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  3. each command can have maximum value of x as 50, where argv[x].<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  4. username, hostname and cwd are 1000 characters at max.<br>
 
-Only bonus implemented is history command
