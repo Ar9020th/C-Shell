@@ -1,3 +1,4 @@
+### How to Run
 To run the code, use the given makefile, which generates main as output file.
 
 Files and their uses:<br>
